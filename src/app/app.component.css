@@ -1,0 +1,28 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: -100;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.wellText {
+  font-size: 32px;
+}
+
+.pictureSize {
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+}
